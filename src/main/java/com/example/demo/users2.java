@@ -1,0 +1,39 @@
+package com.example.demo;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+@Entity
+
+public class users2 {
+     @Id
+@GeneratedValue
+private int id;
+private String name;
+private int age;
+public int getId()
+{
+     return id;
+}
+public String getName()
+{
+     return name;
+}
+public int getAge()
+{
+     return age;
+}
+public void setId(int id)
+{
+     this.id=id;
+}
+public void setName(String name)
+{
+     this.name=name;
+}
+public void setAge(int Age)
+{
+     this.age=age;
+}
+
+}
