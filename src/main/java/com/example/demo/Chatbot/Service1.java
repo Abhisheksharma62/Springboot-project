@@ -1,4 +1,4 @@
-package com.example.demo.pro1;
+package com.example.demo.Chatbot;
 
 import org.springframework.stereotype.Service;
 
@@ -11,11 +11,11 @@ public class Service1 {
         {
             return "Message is empty";
         }
-        if(msg.equalsIgnoreCase("hi"))
+        if(msg.equalsIgnoreCase("Hi"))
         {
             return "Hello";
         }
-        else if(msg.equalsIgnoreCase("bye"))
+        else if(msg.equalsIgnoreCase("Bye"))
         {
             return "Goodbye";
         }

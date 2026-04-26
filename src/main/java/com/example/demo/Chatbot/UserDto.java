@@ -1,4 +1,4 @@
-package com.example.demo.pro1;
+package com.example.demo.Chatbot;
 
 public class UserDto {
 private String message;

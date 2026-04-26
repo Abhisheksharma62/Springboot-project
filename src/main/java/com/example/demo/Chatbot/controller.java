@@ -1,4 +1,4 @@
-package com.example.demo.pro1;
+package com.example.demo.Chatbot;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("web")
+@RequestMapping("/webhook")
 public class controller {
 @Autowired
 private Service1 repo;
